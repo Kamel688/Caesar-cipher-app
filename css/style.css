@@ -1,0 +1,134 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 0 8em 0 8em;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  background-color: #333;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.box input[type='text'] {
+  margin: 1.5em 0 1.5em 0;
+  padding: 1em 2em;
+  width: 17%;
+}
+
+.box .inputShift {
+  width: 20%;
+}
+
+.box .btn {
+  padding: 1em 2em;
+  margin-bottom: 1.5em;
+  border-radius: 8px;
+  border: none;
+  color: #333;
+  background: -webkit-gradient(linear, right top, left top, from(rgba(223, 190, 106, 0.8)), to(rgba(146, 111, 52, 0.8)));
+  background: linear-gradient(270deg, rgba(223, 190, 106, 0.8), rgba(146, 111, 52, 0.8));
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: color 0.3s, background 0.3s;
+  transition: color 0.3s, background 0.3s;
+}
+
+.box .btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+.box .result {
+  font-size: 2rem;
+}
+
+.box .cipher {
+  color: tomato;
+}
+
+.box .shift-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box .shift-box .plus, .box .shift-box .minus {
+  padding: 0.6em 1.2em;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.box .shift-box .plus {
+  color: springgreen;
+}
+
+.box .shift-box .minus {
+  color: tomato;
+}
+
+.box .shift-box .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box .checkboxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box .checkboxes label {
+  font-size: 1.6rem;
+}
+
+.box .checkboxes input {
+  margin-right: 1em;
+}
+
+.box .checkboxes .encrypt-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 1em;
+}
+
+.box .checkboxes .decrypt-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script
+			src="https://kit.fontawesome.com/6ee12b0358.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="/css/style.css" />
+	</head>
+	<body>
+		<div class="box">
+			<label for="submit">Wprowadź tekst</label>
+			<input type="text" class="inputText" />
+			<div class="checkboxes">
+				<div class="encrypt-box">
+					<input type="checkbox" name="encrypt" id="encrypt">
+					<label for="encrypt">Szyfruj</label>
+				</div>
+				<div class="decrypt-box">
+					<input type="checkbox" name="decrypt" id="decrypt">
+					<label for="decrypt">Odszyfruj</label>
+				</div>
+			</div>
+			<div class="shift-box">
+				<button class="minus">-</button>
+				<p class="number">0</p>
+				<button class="plus">+</button>
+			</div>
+			<button class="btn">Szyfruj</button>
+			<p class="result"></p>
+			<p class="result cipher"></p>
+		</div>
+		<script src="/main.js"></script>
+	</body>
+</html>
